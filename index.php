@@ -84,6 +84,7 @@
 					<td><?= $credit['creator']; ?></td>
 					<td><?= $credit['type']; ?></td>
 					<td>
+ 						<a href="edit_credit.php?id_credit=<?= $credit['id_credit']; ?>">Edit</a>
  						<a onclick="return confirm('are you sure want to delete <?= $credit['asset']; ?> | <?= $credit['creator']; ?> ?');" href="delete_credit.php?id_credit=<?= $credit['id_credit']; ?>">Delete</a>
 					</td>
 				</tr>
