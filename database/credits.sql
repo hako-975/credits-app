@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 30 Apr 2021 pada 01.38
--- Versi server: 10.4.18-MariaDB
--- Versi PHP: 8.0.3
+-- Waktu pembuatan: 15 Jul 2022 pada 18.43
+-- Versi server: 10.4.24-MariaDB
+-- Versi PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -40,27 +40,9 @@ CREATE TABLE `credits` (
 --
 
 INSERT INTO `credits` (`id_credit`, `asset`, `creator`, `date_created`, `id_type`) VALUES
-(1, '3LE Low Poly Cloud Pack', 'The Fallout Nerd', 0, 1),
-(2, 'Anime Character : Arisa (MC)', 'Dai Yong Xiang', 0, 1),
-(3, 'Desert Kits 64 Sample', 'Sagital3D', 0, 1),
-(4, 'Fantasy Monster - Skeleton', 'Teamjoker', 0, 1),
-(5, 'Free Fantasy Spider', 'Kalamona', 0, 1),
-(6, 'Free HDR Sky', 'ProAssets', 0, 1),
-(7, 'Japanese Classroom', 'T I A N', 0, 1),
-(8, 'Joystick Pack', 'Fenerax Studios', 0, 1),
-(9, 'Lowpoly Nature & Village Pack', 'Hasan3DModels', 0, 1),
-(10, 'Scorpion', 'anthonyvanoo', 0, 1),
-(11, 'BGM Boss Appear', 'www.bensound.com', 0, 2),
-(12, 'Campfire - Roa (BGM Level Grass) ', 'Audio Library', 0, 2),
-(13, 'Danger Around The Corner', 'Darren Curtis', 0, 2),
-(14, 'Desert Travel (BGM Level Desert)', 'MusicForVideosCreators', 0, 2),
-(15, 'sfx', 'freesound.org', 0, 3),
-(16, 'sfx', 'taira-komori.jpn.org', 0, 3),
-(17, 'sfx', 'www.storyblocks.com', 0, 3),
-(18, 'sfx', 'www.videvo.net', 0, 3),
-(19, 'sfx', 'www.zapsplat.com', 0, 3),
-(20, 'tess', 'sfx', 1619739112, 0),
-(21, 'bgm', 'tesbgm', 1619739112, 0);
+(1, 'music_zapsplat_mr_jelly | BGM', 'zapsplat.com', 1651671014, 2),
+(4, 'zapsplat_cartoon_click_pop_single_75392 | Positive Button', 'zapsplat.com', 1651673269, 3),
+(5, 'zapsplat_multimedia_game_sound_fun_magic_game_positive_event_notification_002_61005 | Start Game', 'zapsplat.com', 1651673890, 3);
 
 -- --------------------------------------------------------
 
@@ -107,7 +89,7 @@ ALTER TABLE `type`
 -- AUTO_INCREMENT untuk tabel `credits`
 --
 ALTER TABLE `credits`
-  MODIFY `id_credit` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id_credit` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT untuk tabel `type`
